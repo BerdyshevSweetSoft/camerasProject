@@ -1,0 +1,17 @@
+<div class="card-deck">
+  <div class="child" *ngFor="let camera of pageOfItems">
+    <img class="card-img-top" src={{camera.imageUrl}} alt="Card image cap">
+    <div class="card-body">
+     <span class="dot" [ngStyle]="{'backgroundColor': camera.indicator == 0 ?  'green':'red' }"></span><p >{{camera.indicator | format|tr}}</p>
+      <p class="card-text">{{'this_is'|tr}}</p>
+    </div>
+  </div>
+  </div>
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <jw-pagination [items]="cameras" [pageSize]="size" (changePage)="onChangePage($event)"></jw-pagination>
+    </li>
+  </ul>
+</nav>

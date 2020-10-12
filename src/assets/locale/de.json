@@ -1,0 +1,17 @@
+{
+    "ar": "العربية",
+    "en": "English",
+    "de": "Deutsch",
+    "sign_in": "Anmelden",
+    "log_out":"Ausloggen",
+    "password":"Passwort",
+    "email_address":"E-Mail Addresse",
+    "cameras":"Kameras",
+    "settings":"Die Einstellungen",
+    "reporting":"Berichterstattung",
+    "user_name":"Nutzername",
+    "Failed":"Gescheitert",
+    "Passed":"Bestanden",
+    "company_name":"Name der Firma",
+    "this_is":"Dies ist eine breitere Karte mit unterstützendem Text unten als natürlicher Einstieg in zusätzlichen Inhalt. Dieser Inhalt ist etwas länger."
+  }

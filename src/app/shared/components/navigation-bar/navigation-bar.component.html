@@ -1,0 +1,15 @@
+<div *ngIf="showNavBar">
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
+        <div class="container"> <a class="navbar-brand" href="#">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRMMb_a59WT2JMObdrVboN1XPbT1kAHc21NuQ&usqp=CAU" width="30" height="30" alt="">
+          </a>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link " >{{'cameras' | tr}}</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" >{{'reporting' | tr}}</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link ">{{'settings' | tr}}</a></li>
+                </ul><span class="navbar-text actions"><a class="login">{{'user_name' | tr}}</a><a class="btn btn-light action-button" role="button" (click)="onLogOut()">{{'log_out' | tr}}</a></span></div>
+        </div>
+    </nav>
+</div>

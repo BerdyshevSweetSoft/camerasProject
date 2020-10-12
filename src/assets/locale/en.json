@@ -1,0 +1,19 @@
+
+    {
+        "ar": "العربية",
+        "en": "English",
+        "de": "Deutsch",
+        "sign_in": "Sign in",
+        "sign_up": "Sign up",
+        "log_out":"Log Out",
+        "password":"Password",
+    "email_address":"Email Address",
+    "cameras":"Cameras",
+    "settings":"Settings",
+    "reporting":"Reporting",
+    "user_name":"User Name",
+    "Failed":"Failed",
+    "Passed":"Passed",
+    "company_name":"Company Name",
+    "this_is":"This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+      }

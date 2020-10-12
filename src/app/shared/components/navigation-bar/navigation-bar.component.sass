@@ -1,0 +1,225 @@
+.container
+    padding:0
+    margin:0
+
+.navigation-clean-button
+  background: #fff
+  padding-top: .75rem
+  padding-bottom: .75rem
+  color: #333
+  border-radius: 0
+  box-shadow: none
+  border: none
+  margin-bottom: 0
+
+  .navbar-brand
+    font-weight: bold
+    color: inherit
+
+    &:hover
+      color: #222
+
+  .navbar-toggler
+    border-color: #ddd
+
+    &:hover, &:focus
+      background: none
+
+    color: #888
+
+  .navbar-collapse, .form-inline
+    border-top-color: #ddd
+
+  .navbar-nav
+    a.active, > .show > a
+      background: none
+      box-shadow: none
+
+  &.navbar-light .navbar-nav a.active
+    color: #8f8f8f
+    box-shadow: none
+    background: none
+    pointer-events: none
+
+    &:focus, &:hover
+      color: #8f8f8f
+      box-shadow: none
+      background: none
+      pointer-events: none
+
+  &.navbar .navbar-nav .nav-link
+    padding-left: 18px
+    padding-right: 18px
+
+  &.navbar-light .navbar-nav .nav-link
+    color: #465765
+
+    &:focus, &:hover
+      color: #37434d !important
+      background-color: transparent
+
+    line-height: 2
+    font-size: 14px
+    color: #37434d
+
+    &:hover
+      background: #eee
+      color: inherit
+
+  .actions .login
+    margin-right: 1rem
+    text-decoration: none
+    color: #465765
+
+  .navbar-text .action-button
+    background: #56c6c6
+    border-radius: 20px
+    font-size: inherit
+    color: #fff
+    box-shadow: none
+    border: none
+    text-shadow: none
+    padding: .5rem 1rem
+    transition: background-color 0.25s
+    font-size: inherit
+
+    &:active
+      background: #56c6c6
+      border-radius: 20px
+      font-size: inherit
+      color: #fff
+      box-shadow: none
+      border: none
+      text-shadow: none
+      padding: .5rem 1rem
+      transition: background-color 0.25s
+      font-size: inherit
+
+    &:hover
+      background: #56c6c6
+      border-radius: 20px
+      font-size: inherit
+      color: #fff
+      box-shadow: none
+      border: none
+      text-shadow: none
+      padding: .5rem 1rem
+      transition: background-color 0.25s
+      font-size: inherit
+      background: #66d7d7
+
+@media (min-width: 768px)
+  .navigation-clean-button
+    padding-top: 1rem
+    padding-bottom: 1rem
+
+.navigation-clean-search
+  background: #fff
+  padding-top: .75rem
+  padding-bottom: .75rem
+  color: #333
+  border-radius: 0
+  box-shadow: none
+  border: none
+  margin-bottom: 0
+
+  .navbar-brand
+    font-weight: bold
+    color: inherit
+
+    &:hover
+      color: #222
+
+  .navbar-toggler
+    border-color: #ddd
+
+    &:hover, &:focus
+      background: none
+
+    color: #888
+
+  .navbar-collapse, .form-inline
+    border-top-color: #ddd
+
+  .navbar-nav
+    a.active, > .show > a
+      background: none
+      box-shadow: none
+
+  &.navbar-light .navbar-nav a.active
+    color: #8f8f8f
+    box-shadow: none
+    background: none
+    pointer-events: none
+
+    &:focus, &:hover
+      color: #8f8f8f
+      box-shadow: none
+      background: none
+      pointer-events: none
+
+  &.navbar .navbar-nav .nav-link
+    padding-left: 18px
+    padding-right: 18px
+
+  &.navbar-light .navbar-nav .nav-link
+    color: #465765
+
+    &:focus, &:hover
+      color: #37434d !important
+      background-color: transparent
+
+  .action-button
+    background: #56c6c6
+    border-radius: 20px
+    font-size: inherit
+    color: #fff !important
+    box-shadow: none
+    border: none
+    text-shadow: none
+    padding: 8px 20px
+    transition: background-color 0.25s
+
+@media (min-width: 768px)
+  .navigation-clean-search
+    padding-top: 1rem
+    padding-bottom: 1rem
+
+.navigation-clean-button .action-button:active
+  background: #56c6c6
+  border-radius: 20px
+  font-size: inherit
+  color: #fff !important
+  box-shadow: none
+  border: none
+  text-shadow: none
+  padding: 8px 20px
+  transition: background-color 0.25s
+
+.navigation-clean-search
+  .action-button
+    &:hover, &:focus
+      background: #66d7d7
+
+  .form-inline
+    label
+      color: #ccc
+
+    .search-field
+      background: none
+      border: none
+      border-bottom: 1px solid transparent
+      border-radius: 0
+      color: #ccc
+      box-shadow: none
+      color: inherit
+      transition: border-bottom-color 0.3s
+
+      &:focus
+        border-bottom: 1px solid #ccc
+
+@media (max-width: 767px)
+  .navigation-clean-search .form-inline .search-field
+    display: inline-block
+    width: 80%
+

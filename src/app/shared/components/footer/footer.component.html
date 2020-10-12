@@ -1,0 +1,6 @@
+<footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">© 2017-2018 <span>{{'company_name' | tr}}</span></p>
+        <ul class="list-inline">
+            <li class="list-inline-item footer" (click)="translator.setLanguage(x)" *ngFor="let x of ['en','de']">{{x|tr}}</li>
+        </ul>
+</footer>
